@@ -1,0 +1,9 @@
+version="1.30.3"
+tags={
+	"Balance"
+	"Historical"
+	"Gameplay"
+	"Expansion"
+}
+name="AgeBonusesExpanded"
+supported_version="1.30.3"
