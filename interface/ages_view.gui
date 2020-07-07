@@ -239,18 +239,18 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name ="close_button"
-            if_resolution = {
-                max_height = 867
+			if_resolution = {
+				max_height = 867
 				position = { x = 560 y = -48 }
 				quadTextureSprite = "GFX_button_close"
 				buttonText = ""
-            }	
-            if_resolution = {
-                min_height = 868
+			}	
+			if_resolution = {
+				min_height = 868
 				quadTextureSprite ="button_type_1"
 				position = { x= 214 y = 664 }
 				buttonText = "CLOSE"
-            }			
+			}			
 			buttonFont = "vic_18"
 			shortcut = "ESCAPE"
 		}
@@ -269,7 +269,7 @@ guiTypes = {
 			name ="abilities"
 			position = { x = 4 y = 244 }
 			backGround=""
-			size = { x=550 y =50}
+			size = { x=550 y =60}
 			Orientation = "UPPER_LEFT"
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"

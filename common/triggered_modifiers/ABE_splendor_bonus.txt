@@ -1,0 +1,358 @@
+splendor_triggered_modifier_1 = {
+	potential = {
+		has_dlc = "Golden Century"
+		variable_arithmetic_trigger = {
+			export_to_variable = {
+				which = adm_value
+				value = ADM
+			}
+			export_to_variable = {
+				which = dip_value
+				value = DIP
+			}
+			export_to_variable = {
+				which = mil_value
+				value = MIL
+			}
+			change_variable = { which = adm_value which = dip_value }
+			change_variable = { which = adm_value which = mil_value }
+
+			NOT = {
+				check_variable = {
+					which = adm_value
+					value = 4
+				}
+			}
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = RULER_STAT_INFERIOR_4_TOOLTIP
+			always = yes
+		}
+	}
+
+	monthly_splendor = 1
+}
+
+splendor_triggered_modifier_2 = {
+	potential = {
+		has_dlc = "Golden Century"
+		variable_arithmetic_trigger = {
+			export_to_variable = {
+				which = adm_value
+				value = ADM
+			}
+			export_to_variable = {
+				which = dip_value
+				value = DIP
+			}
+			export_to_variable = {
+				which = mil_value
+				value = MIL
+			}
+			change_variable = { which = adm_value which = dip_value }
+			change_variable = { which = adm_value which = mil_value }
+			
+			OR = {
+				is_variable_equal = {
+					which = adm_value
+					value = 4
+				}
+				is_variable_equal = {
+					which = adm_value
+					value = 5
+				}
+			}
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = RULER_STAT_4_TOOLTIP
+			always = yes
+		}
+	}
+
+	monthly_splendor = 2
+}
+
+splendor_triggered_modifier_3 = {
+	potential = {
+		has_dlc = "Golden Century"
+		variable_arithmetic_trigger = {
+			export_to_variable = {
+				which = adm_value
+				value = ADM
+			}
+			export_to_variable = {
+				which = dip_value
+				value = DIP
+			}
+			export_to_variable = {
+				which = mil_value
+				value = MIL
+			}
+			change_variable = { which = adm_value which = dip_value }
+			change_variable = { which = adm_value which = mil_value }
+			
+			OR = {
+				is_variable_equal = {
+					which = adm_value
+					value = 6
+				}
+				is_variable_equal = {
+					which = adm_value
+					value = 7
+				}
+			}
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = RULER_STAT_6_TOOLTIP
+			always = yes
+		}
+	}
+
+	monthly_splendor = 3
+}
+
+splendor_triggered_modifier_4 = {
+	potential = {
+		has_dlc = "Golden Century"
+		variable_arithmetic_trigger = {
+			export_to_variable = {
+				which = adm_value
+				value = ADM
+			}
+			export_to_variable = {
+				which = dip_value
+				value = DIP
+			}
+			export_to_variable = {
+				which = mil_value
+				value = MIL
+			}
+			change_variable = { which = adm_value which = dip_value }
+			change_variable = { which = adm_value which = mil_value }
+			
+			OR = {
+				is_variable_equal = {
+					which = adm_value
+					value = 8
+				}
+				is_variable_equal = {
+					which = adm_value
+					value = 9
+				}
+			}
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = RULER_STAT_8_TOOLTIP
+			always = yes
+		}
+	}
+
+	monthly_splendor = 4
+}
+
+splendor_triggered_modifier_5 = {
+	potential = {
+		has_dlc = "Golden Century"
+		variable_arithmetic_trigger = {
+			export_to_variable = {
+				which = adm_value
+				value = ADM
+			}
+			export_to_variable = {
+				which = dip_value
+				value = DIP
+			}
+			export_to_variable = {
+				which = mil_value
+				value = MIL
+			}
+			change_variable = { which = adm_value which = dip_value }
+			change_variable = { which = adm_value which = mil_value }
+			
+			OR = {
+				is_variable_equal = {
+					which = adm_value
+					value = 10
+				}
+				is_variable_equal = {
+					which = adm_value
+					value = 11
+				}
+			}
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = RULER_STAT_10_TOOLTIP
+			always = yes
+		}
+	}
+
+	monthly_splendor = 5
+}
+
+splendor_triggered_modifier_6 = {
+	potential = {
+		has_dlc = "Golden Century"
+		variable_arithmetic_trigger = {
+			export_to_variable = {
+				which = adm_value
+				value = ADM
+			}
+			export_to_variable = {
+				which = dip_value
+				value = DIP
+			}
+			export_to_variable = {
+				which = mil_value
+				value = MIL
+			}
+			change_variable = { which = adm_value which = dip_value }
+			change_variable = { which = adm_value which = mil_value }
+			
+			OR ={
+				is_variable_equal = {
+					which = adm_value
+					value = 12
+				}
+				is_variable_equal = {
+					which = adm_value
+					value = 13
+				}
+			}
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = RULER_STAT_12_TOOLTIP
+			always = yes
+		}
+	}
+
+	monthly_splendor = 6
+}
+
+splendor_triggered_modifier_7 = {
+	potential = {
+		has_dlc = "Golden Century"
+		variable_arithmetic_trigger = {
+			export_to_variable = {
+				which = adm_value
+				value = ADM
+			}
+			export_to_variable = {
+				which = dip_value
+				value = DIP
+			}
+			export_to_variable = {
+				which = mil_value
+				value = MIL
+			}
+			change_variable = { which = adm_value which = dip_value }
+			change_variable = { which = adm_value which = mil_value }
+			
+			OR = {
+				is_variable_equal = {
+					which = adm_value
+					value = 14
+				}
+				is_variable_equal = {
+					which = adm_value
+					value = 15
+				}
+			}
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = RULER_STAT_14_TOOLTIP
+			always = yes
+		}
+	}
+
+	monthly_splendor = 7
+}
+
+splendor_triggered_modifier_8 = {
+	potential = {
+		has_dlc = "Golden Century"
+		variable_arithmetic_trigger = {
+			export_to_variable = {
+				which = adm_value
+				value = ADM
+			}
+			export_to_variable = {
+				which = dip_value
+				value = DIP
+			}
+			export_to_variable = {
+				which = mil_value
+				value = MIL
+			}
+			change_variable = { which = adm_value which = dip_value }
+			change_variable = { which = adm_value which = mil_value }
+			
+			OR = {
+				is_variable_equal = {
+					which = adm_value
+					value = 16
+				}
+				is_variable_equal = {
+					which = adm_value
+					value = 17
+				}
+			}
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = RULER_STAT_INFERIOR_16_TOOLTIP
+			always = yes
+		}
+	}
+
+	monthly_splendor = 8
+}
+
+splendor_triggered_modifier_9 = {
+	potential = {
+		has_dlc = "Golden Century"
+		variable_arithmetic_trigger = {
+			export_to_variable = {
+				which = adm_value
+				value = ADM
+			}
+			export_to_variable = {
+				which = dip_value
+				value = DIP
+			}
+			export_to_variable = {
+				which = mil_value
+				value = MIL
+			}
+			change_variable = { which = adm_value which = dip_value }
+			change_variable = { which = adm_value which = mil_value }
+			
+			is_variable_equal = {
+				which = adm_value
+				value = 18
+			}
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = RULER_STAT_18_TOOLTIP
+			always = yes
+		}
+	}
+
+	monthly_splendor = 9
+}

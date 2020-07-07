@@ -22,12 +22,12 @@ age_of_discovery = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = obj_discover_america_tooltip
-					OR = {
-						north_america = { has_discovered = ROOT }
-						south_america = { has_discovered = ROOT }
-						new_world = { has_discovered = ROOT }
-					}
+				OR = {
+					north_america = { has_discovered = ROOT }
+					south_america = { has_discovered = ROOT }
+					new_world = { has_discovered = ROOT }
 				}
+			}
 		}
 		obj_100_development = {
 			allow = {
@@ -40,12 +40,7 @@ age_of_discovery = {
 				}
 			}
 			total_development = 100
-
 		}
-		
-		
-		
-	
 		obj_5_centers_of_trade = {
 			calc_true_if = {
 				all_owned_province = {
@@ -74,33 +69,29 @@ age_of_discovery = {
 	 		all_state_province = {
 	 			renaissance = 100
 	 		}
-		}
-		
+		}		
 		obj_two_unions = {
 			allow = {
 				religion_group = christian
 			}
 			personal_union  = 2
-		}
-		
+		}		
 		obj_many_vassals = {
 			allow = {
 				NOT = { religion_group = christian }
 			}
 			vassal = 5
-		}		
-	
+		}
 		obj_two_continents = {
 			num_of_continents = 2
 		}
-	
 		obj_humiliate_rival = {
 			custom_trigger_tooltip = {
 				tooltip = obj_humiliate_rival_tooltip
 				has_country_flag = humiliated_rival
 			}
 		}
-	}		
+	}
 	
 	abilities = {
 		ab_allow_feudal_de_jure_law = {
@@ -177,8 +168,7 @@ age_of_discovery = {
 				factor = 100
 			}
 		}
-		ab_portugal_colonial_growth = {
-		
+		ab_portugal_colonial_growth = {		
 			allow = {
 				tag = POR
 			}
@@ -189,8 +179,7 @@ age_of_discovery = {
 				factor = 100
 			}
 		}
-		ab_denmark_reduced_lib_desire = {
-		
+		ab_denmark_reduced_lib_desire = {		
 			allow = {
 				tag = DAN
 			}
@@ -209,8 +198,7 @@ age_of_discovery = {
 				}
 			}
 		}
-		ab_venice_ship_trade = {
-		
+		ab_venice_ship_trade = {		
 			allow = {
 				tag = VEN
 			}
@@ -362,110 +350,6 @@ age_of_discovery = {
 				factor = 100
 			}
 		}
-		
-		ab_ottoman_siege_ability = {
-			allow = {
-				tag = TUR
-			}
-			modifier = {
-				siege_ability = 0.33
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}		
-		ab_portugal_colonial_growth = {
-		
-			allow = {
-				tag = POR
-			}
-			modifier = {
-				global_colonial_growth = 50
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-		ab_denmark_reduced_lib_desire = {
-		
-			allow = {
-				tag = DAN
-			}
-			modifier = {
-				reduced_liberty_desire = 30
-			}
-			ai_will_do = {
-				factor = 100
-				modifier = {
-					factor = 0
-					NOT = {
-						any_subject_country = {
-							liberty_desire = 20
-						}
-					}
-				}
-			}
-		}
-		ab_venice_ship_trade = {
-		
-			allow = {
-				tag = VEN
-			}
-			modifier = {
-				global_ship_trade_power = 0.5
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-
-		ab_spain_tercio = {
-			allow = {
-				tag = SPA
-			}
-			modifier = {
-				shock_damage_received = -0.3
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-		ab_mughal_artillery = {
-			allow = {
-				tag = MUG
-			}
-			modifier = {
-				artillery_cost = -0.5
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-		ab_polish_legitimacy = {
-			allow = {
-				OR = {
-					tag = PLC
-					tag = POL
-				}
-			}
-			modifier = {
-				global_trade_goods_size_modifier = 0.33
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}		
-		ab_persia_reinforce = {
-			allow = {
-				tag = PER
-			}
-			modifier = {
-				reinforce_cost_modifier = -0.3
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
 	}
 }
 
@@ -488,32 +372,30 @@ age_of_reformation = {
 				religion = hussite
 			}
 		}
-		
 		obj_humanism_religious = {
 			OR = {
 				full_idea_group = humanist_ideas
 				full_idea_group = religious_ideas
 			}
 		}
-		
 		obj_convert_10_provinces = {
 			custom_trigger_tooltip = {
 				tooltip = obj_convert_10_provinces_tooltip
-				check_variable = { which = num_converted_religion value = 10 }
+				check_variable = { 
+					which = num_converted_religion 
+					value = 10
+				}
 			}
 		}
-		
 		obj_colonial_empire = {
 			colony = 5
 		}
-		
 		obj_force_converted = {
 			custom_trigger_tooltip = {
 				tooltip = obj_force_converted_tooltip
 				has_country_flag = force_converted
 			}
 		}
-		
 		obj_asian_trade = {
 			OR = {
 				trading_bonus = {
@@ -528,12 +410,8 @@ age_of_reformation = {
 					trade_goods = silk
 					value = yes
 				}
-			
 			}
-		
-		
 		}
-		
 		obj_unify_culture = {	
 			is_subject = no
 			has_unified_culture_group = yes
@@ -562,7 +440,6 @@ age_of_reformation = {
 							num_of_ports = 5
 					}
 				}
-
 			}
 		}		
 		ab_warscore_vs_religion = {
@@ -606,7 +483,6 @@ age_of_reformation = {
 			}
 		}
 
-	
 		ab_spain_tercio = {
 			allow = {
 				tag = SPA
@@ -642,7 +518,7 @@ age_of_reformation = {
 			ai_will_do = {
 				factor = 100
 			}
-		}
+		}		
 		ab_persia_reinforce = {
 			allow = {
 				tag = PER
@@ -703,8 +579,7 @@ age_of_absolutism = {
 			custom_trigger_tooltip = {
 				tooltip = obj_religious_league_war_on_winning_side_tooltip
 				has_country_flag = religious_league_war_on_winning_side
-			}
-			
+			}			
 		}
 	}	
 	
@@ -897,7 +772,7 @@ age_of_revolutions = {
 			ai_will_do = {
 				factor = 10
 			}
-		}		
+		}
 		ab_force_march = {
 			rule = {
 				force_march_free = yes
@@ -921,7 +796,7 @@ age_of_revolutions = {
 			ai_will_do = {
 				factor = 10
 			}
-		}		
+		}
 		ab_backrow_artillery = {
 			modifier = {
 				backrow_artillery_damage = 0.20

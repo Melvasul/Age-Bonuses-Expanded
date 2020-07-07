@@ -1,0 +1,22 @@
+﻿l_english:
+ #Tooltips
+ RULER_STAT_INFERIOR_4_TOOLTIP: "Your court splendor is below 4"
+ RULER_STAT_4_TOOLTIP: "Your court splendor is 4 or higher"
+ RULER_STAT_6_TOOLTIP: "Your court splendor is 6 or higher"
+ RULER_STAT_8_TOOLTIP: "Your court splendor is 8 or higher"
+ RULER_STAT_10_TOOLTIP: "Your court splendor is 10 or higher"
+ RULER_STAT_12_TOOLTIP: "Your court splendor is 12 or higher"
+ RULER_STAT_14_TOOLTIP: "Your court splendor is 14 or higher"
+ RULER_STAT_16_TOOLTIP: "Your court splendor is 16 or higher"
+ RULER_STAT_18_TOOLTIP: "Your court splendor is 18"
+
+ #Triggered Modifier
+ splendor_triggered_modifier_1: "Court Splendor"
+ splendor_triggered_modifier_2: "Court Splendor"
+ splendor_triggered_modifier_3: "Court Splendor"
+ splendor_triggered_modifier_4: "Court Splendor"
+ splendor_triggered_modifier_5: "Court Splendor"
+ splendor_triggered_modifier_6: "Court Splendor"
+ splendor_triggered_modifier_7: "Court Splendor"
+ splendor_triggered_modifier_8: "Court Splendor"
+ splendor_triggered_modifier_9: "Court Splendor"
