@@ -1,0 +1,15 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_abe_spain_tercio"
+		texturefile = "gfx/interface/ages/abe_spain_tercio.dds"
+	}
+
+	spriteType = {
+		name = "GFX_abe_florence_renaissance"
+		texturefile = "gfx/interface/ages/abe_florence_renaissance.dds"
+	}
+	spriteType = {
+		name = "GFX_"
+		texturefile = "gfx/interface/ages/.dds"
+	}
+}

@@ -10,6 +10,10 @@
  RULER_STAT_16_TOOLTIP: "Your court splendor is 16 or higher"
  RULER_STAT_18_TOOLTIP: "Your court splendor is 18"
 
+ #Age bonuses
+ abe_spain_tercio: "ABE - Spanish Tercio"
+ abe_florence_renaissance: "Florentine Renaissance"
+
  #Triggered Modifier
  splendor_triggered_modifier_1: "Court Splendor"
  splendor_triggered_modifier_2: "Court Splendor"
