@@ -1,12 +1,51 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_abe_spain_tercio"
-		texturefile = "gfx/interface/ages/abe_spain_tercio.dds"
+		name = "GFX_abe_delhi_hindustani_claims"
+		texturefile = "gfx/interface/ages/abe_delhi_hindustani_claims.dds"
 	}
-
+	spriteType = {
+		name = "GFX_abe_ethiopia_prester_john"
+		texturefile = "gfx/interface/ages/abe_ethiopia_prester_john.dds"
+	}
 	spriteType = {
 		name = "GFX_abe_florence_renaissance"
 		texturefile = "gfx/interface/ages/abe_florence_renaissance.dds"
+	}
+	spriteType = {
+		name = "GFX_abe_hungary_defense"
+		texturefile = "gfx/interface/ages/abe_hungary_defense.dds"
+	}
+	spriteType = {
+		name = "GFX_abe_malacca_spices"
+		texturefile = "gfx/interface/ages/abe_malacca_spices.dds"
+	}
+	spriteType = {
+		name = "GFX_abe_ming_grand_imperial_projects"
+		texturefile = "gfx/interface/ages/abe_ming_grand_imperial_projects.dds"
+	}
+	spriteType = {
+		name = "GFX_abe_qoyunlu_feuds"
+		texturefile = "gfx/interface/ages/abe_qoyunlu_feuds.dds"
+	}
+	spriteType = {
+		name = "GFX_abe_songhai_timbuktu_university"
+		texturefile = "gfx/interface/ages/abe_songhai_timbuktu_university.dds"
+	}
+	spriteType = {
+		name = "GFX_abe_vijayanagar_nayankara"
+		texturefile = "gfx/interface/ages/abe_vijayanagar_nayankara.dds"
+	}
+	spriteType = {
+		name = "GFX_"
+		texturefile = "gfx/interface/ages/.dds"
+	}
+	spriteType = {
+		name = "GFX_"
+		texturefile = "gfx/interface/ages/.dds"
+	}
+	spriteType = {
+		name = "GFX_"
+		texturefile = "gfx/interface/ages/.dds"
 	}
 	spriteType = {
 		name = "GFX_"

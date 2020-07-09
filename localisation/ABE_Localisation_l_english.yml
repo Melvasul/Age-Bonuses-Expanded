@@ -11,8 +11,18 @@
  RULER_STAT_18_TOOLTIP: "Your court splendor is 18"
 
  #Age bonuses
- abe_spain_tercio: "ABE - Spanish Tercio"
+ #Discovery
+ abe_delhi_hindustani_claims: "Hindustani Claims"
+ abe_ethiopia_prester_john: "Prester John"
  abe_florence_renaissance: "Florentine Renaissance"
+ abe_hungary_defense: "Hungarian Defense"
+ abe_malacca_spices: "Malaccan Spices"
+ abe_ming_grand_imperial_projects: "Grand Imperial Projects"
+ abe_qoyunlu_feuds: "Qoyunlu Feuds"
+ abe_songhai_timbuktu_university: "Timbuktu University"
+ abe_vijayanagar_nayankara: "Nayankara"
+
+ #Reformation
 
  #Triggered Modifier
  splendor_triggered_modifier_1: "Court Splendor"

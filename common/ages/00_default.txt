@@ -109,7 +109,7 @@ age_of_discovery = {
 			}
 			ai_will_do = {
 				factor = 10
-			}			
+			}
 		}
 		ab_transfer_vassal_wargoal = {
 			rule = {
@@ -126,7 +126,7 @@ age_of_discovery = {
 			}
 			ai_will_do = {
 				factor = 10
-			}	
+			}
 		}
 		ab_cavalry_armies = {
 			modifier = {
@@ -198,7 +198,7 @@ age_of_discovery = {
 				}
 			}
 		}
-		ab_venice_ship_trade = {		
+		ab_venice_ship_trade = {
 			allow = {
 				tag = VEN
 			}
@@ -210,12 +210,107 @@ age_of_discovery = {
 			}
 		}
 
+		abe_delhi_hindustani_claims = {
+			allow = {
+				tag = DLH
+			}
+			modifier = {
+				ae_impact = -0.25
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_ethiopia_prester_john = {
+			allow = {
+				tag = ETH
+			}
+			modifier = {
+				global_prov_trade_power_modifier = 0.25
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
 		abe_florence_renaissance = {
 			allow = {
 				tag = LAN
 			}
 			modifier = {
 				technology_cost = -0.10
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_hungary_defense = {
+			allow = {
+				tag = HUN
+			}
+			modifier = {
+				defensiveness = 0.25
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_malacca_spices = {
+			allow = {
+				OR = {
+					tag = MLC
+					tag = MSA
+				}
+			}
+			modifier = {
+				global_own_trade_power = 0.25
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_ming_grand_imperial_projects = {
+			allow = {
+				tag = MNG
+			}
+			modifier = {
+				build_cost = -0.30
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_qoyunlu_feuds = {
+			allow = {
+				OR = {
+					tag = AKK
+					tag = QAR
+				}
+			}
+			modifier = {
+				province_warscore_cost = -0.2
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_songhai_timbuktu_university = {
+			allow = {
+				tag = SON
+			}
+			modifier = {
+				technology_cost = -0.25
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_vijayanagar_nayankara = {
+			allow = {
+				tag = VIJ
+			}
+			modifier = {
+				leader_cost = -0.15
+				maratha_loyalty_modifier = 0.1
 			}
 			ai_will_do = {
 				factor = 100
