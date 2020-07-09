@@ -212,7 +212,7 @@ age_of_discovery = {
 
 		abe_delhi_hindustani_claims = {
 			allow = {
-				tag = DLH
+				#tag = DLH
 			}
 			modifier = {
 				ae_impact = -0.25
@@ -223,7 +223,7 @@ age_of_discovery = {
 		}
 		abe_ethiopia_prester_john = {
 			allow = {
-				tag = ETH
+				#tag = ETH
 			}
 			modifier = {
 				global_prov_trade_power_modifier = 0.25
@@ -234,7 +234,7 @@ age_of_discovery = {
 		}
 		abe_florence_renaissance = {
 			allow = {
-				tag = LAN
+				#tag = LAN
 			}
 			modifier = {
 				technology_cost = -0.10
@@ -245,7 +245,7 @@ age_of_discovery = {
 		}
 		abe_hungary_defense = {
 			allow = {
-				tag = HUN
+				#tag = HUN
 			}
 			modifier = {
 				defensiveness = 0.25
@@ -256,10 +256,10 @@ age_of_discovery = {
 		}
 		abe_malacca_spices = {
 			allow = {
-				OR = {
-					tag = MLC
-					tag = MSA
-				}
+				#OR = {
+				#	tag = MLC
+				#	tag = MSA
+				#}
 			}
 			modifier = {
 				global_own_trade_power = 0.25
@@ -270,10 +270,10 @@ age_of_discovery = {
 		}
 		abe_ming_grand_imperial_projects = {
 			allow = {
-				tag = MNG
+				#tag = MNG
 			}
 			modifier = {
-				build_cost = -0.30
+				#build_cost = -0.30
 			}
 			ai_will_do = {
 				factor = 100
@@ -281,10 +281,10 @@ age_of_discovery = {
 		}
 		abe_qoyunlu_feuds = {
 			allow = {
-				OR = {
-					tag = AKK
-					tag = QAR
-				}
+				#OR = {
+				#	tag = AKK
+				#	tag = QAR
+				#}
 			}
 			modifier = {
 				province_warscore_cost = -0.2
@@ -295,7 +295,7 @@ age_of_discovery = {
 		}
 		abe_songhai_timbuktu_university = {
 			allow = {
-				tag = SON
+				#tag = SON
 			}
 			modifier = {
 				technology_cost = -0.25
@@ -306,7 +306,7 @@ age_of_discovery = {
 		}
 		abe_vijayanagar_nayankara = {
 			allow = {
-				tag = VIJ
+				#tag = VIJ
 			}
 			modifier = {
 				leader_cost = -0.15
@@ -484,13 +484,92 @@ age_of_reformation = {
 			ai_will_do = {
 				factor = 100
 			}
-		}		
-		ab_persia_reinforce = {
+		}
+
+		ab_persia_court = {
 			allow = {
-				tag = PER
+				#tag = PER
 			}
 			modifier = {
-				reinforce_cost_modifier = -0.3
+				advisor_cost = -0.25
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		
+		abe_bavaria_centralisation = {
+			allow = {
+				#tag = BAV
+			}
+			modifier = {
+				global_autonomy = -0.10
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_brandenburg_war_commissariat = {
+			allow = {
+				#tag = BRA
+			}
+			modifier = {
+				war_taxes_cost_modifier = -1.0
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_palatinate_court = {
+			allow = {
+				#tag = PAL
+			}
+			modifier = {
+				diplomatic_upkeep = 5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_papal_warrior = {
+			allow = {
+				#tag = PAP
+			}
+			modifier = {
+				leader_land_shock = 5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_saxony_piety = {
+			allow = {
+				#tag = SAX
+			}
+			modifier = {
+				tolerance_own = 5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_switzerland_neutrality = {
+			allow = {
+				#tag = SWI
+			}
+			modifier = {
+				improve_relation_modifier = 0.75
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_taungu_military_reforms = {
+			allow = {
+				#tag = TAU
+			}
+			modifier = {
+				infantry_power = 0.50
 			}
 			ai_will_do = {
 				factor = 100
@@ -650,6 +729,40 @@ age_of_absolutism = {
 			}
 			modifier = {
 				amount_of_banners = 0.5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		abe_japan_prosperity = {
+			allow = {
+				#tag = JAP
+			}
+			modifier = {
+				development_cost = -0.50
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_morocco_expedition = {
+			allow = {
+				#tag = MOR
+			}
+			modifier = {
+				land_attrition = -0.50
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_maghrebi_piracy = {
+			allow = {
+				#culture_group = maghrebi
+			}
+			modifier = {
+				light_ship_power = 0.50
 			}
 			ai_will_do = {
 				factor = 100
@@ -828,6 +941,65 @@ age_of_revolutions = {
 			}
 			modifier = {
 				diplomatic_reputation = 5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		abe_germany_industrialisation = {
+			allow = {
+				#tag = GER
+			}
+			modifier = {
+				production_efficiency = 0.50
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_hanover_marriages = {
+			allow = {
+				#tag = HAN
+			}
+			modifier = {
+				prestige = 1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_italian_hegemony = {
+			allow = {
+				#OR = {
+				#	tag = SPI
+				#	tag = ITA
+				#}
+			}
+			modifier = {
+				administrative_efficiency = 0.10
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_marathas_horsemen = {
+			allow = {
+				#tag = MAR
+			}
+			modifier = {
+				shock_damage = 0.50
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		abe_united_states_marines = {
+			allow = {
+				#tag = USA
+			}
+			modifier = {
+				allowed_marine_fraction = 0.50
 			}
 			ai_will_do = {
 				factor = 100

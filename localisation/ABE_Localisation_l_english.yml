@@ -11,6 +11,7 @@
  RULER_STAT_18_TOOLTIP: "Your court splendor is 18"
 
  #Age bonuses
+ ab_persia_court: "Persian Court"
  #Discovery
  abe_delhi_hindustani_claims: "Hindustani Claims"
  abe_ethiopia_prester_john: "Prester John"
@@ -23,6 +24,25 @@
  abe_vijayanagar_nayankara: "Nayankara"
 
  #Reformation
+ abe_bavaria_centralisation: "Bavarian Centralization"
+ abe_brandenburg_war_commissariat: "Brandenburg War commissariat"
+ abe_palatinate_court: "Palatine Court"
+ abe_papal_warrior: "Papal Warrior"
+ abe_saxony_piety: "Saxon Piety"
+ abe_switzerland_neutrality: "Swiss Neutrality"
+ abe_taungu_military_reforms: "Taungu Miitary Reforms"
+
+ #Absolutism
+ abe_japan_prosperity: "Japanese Prosperity"
+ abe_morocco_expedition: "Moroccan Expeditions"
+ abe_maghrebi_piracy: "Maghrebi Piracy"
+
+ #Revolution
+ abe_germany_industrialisation: "German Industrialisation"
+ abe_hanover_marriages: "Hanoverian Marriages"
+ abe_italian_hegemony: "Italian Hegemony"
+ abe_marathas_horsemen: "Maratha Horsemen"
+ abe_united_states_marines: "American Marines"
 
  #Triggered Modifier
  splendor_triggered_modifier_1: "Court Splendor"
