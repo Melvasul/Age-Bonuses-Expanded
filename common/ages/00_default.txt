@@ -237,7 +237,7 @@ age_of_discovery = {
 				#tag = LAN
 			}
 			modifier = {
-				technology_cost = -0.10
+				idea_cost = -0.10
 			}
 			ai_will_do = {
 				factor = 100
