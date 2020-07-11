@@ -15,7 +15,7 @@
  #Discovery
  abe_delhi_hindustani_claims: "Hindustani Claims"
  abe_ethiopia_prester_john: "Prester John"
- abe_florence_renaissance: "Florentine Renaissance"
+ abe_florence_renaissance: "Tuscan Renaissance"
  abe_hungary_defense: "Hungarian Defense"
  abe_malacca_spices: "Malaccan Spices"
  abe_ming_grand_imperial_projects: "Grand Imperial Projects"
@@ -30,19 +30,19 @@
  abe_papal_warrior: "Papal Warrior"
  abe_saxony_piety: "Saxon Piety"
  abe_switzerland_neutrality: "Swiss Neutrality"
- abe_taungu_military_reforms: "Taungu Military Reforms"
+ abe_taungu_military_reforms: "Taungu Military Culture"
 
  #Absolutism
  abe_japan_prosperity: "Japanese Prosperity"
- abe_morocco_expedition: "Moroccan Expeditions"
- abe_maghrebi_piracy: "Maghrebi Piracy"
+ abe_morocco_expedition: "Moroccan Interior"
+ abe_maghrebi_piracy: "Barbary Pirates"
 
  #Revolution
  abe_germany_industrialisation: "German Industrialisation"
  abe_hanover_marriages: "Hanoverian Marriages"
  abe_italian_hegemony: "Italian Hegemony"
  abe_marathas_horsemen: "Maratha Horsemen"
- abe_united_states_marines: "American Marines"
+ abe_united_states_marines: "US Marines"
 
  #Triggered Modifier
  splendor_triggered_modifier_1: "Court Splendor"
