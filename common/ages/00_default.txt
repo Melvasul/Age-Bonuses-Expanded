@@ -74,7 +74,23 @@ age_of_discovery = {
 			allow = {
 				religion_group = christian
 			}
-			personal_union  = 2
+			if = {
+				limit = {
+					is_expanded_mod_active = { mod = subjects }
+				}
+				calc_true_if = {
+					amount = 2
+					all_subject_country = {
+						OR = {
+							is_subject_of_type = brother_kingdom
+							is_subject_of_type = personal_union
+						}
+					}
+				}
+			}
+			else = {
+				personal_union  = 2
+			}
 		}		
 		obj_many_vassals = {
 			allow = {
@@ -91,19 +107,9 @@ age_of_discovery = {
 				has_country_flag = humiliated_rival
 			}
 		}
-		abe_build_fleet = {
-			OR = {
-				religion = protestant
-				religion = reformed
-				religion = anglican
-				religion = hussite
-			}
+		ase_build_fleet = {
 		}
-		abe_piles_of_gold = {
-			OR = {
-				full_idea_group = humanist_ideas
-				full_idea_group = religious_ideas
-			}
+		ase_piles_of_gold = {
 		}
 	}
 	
@@ -224,7 +230,7 @@ age_of_discovery = {
 			}
 		}
 
-		abe_delhi_hindustani_claims = {
+		ase_delhi_hindustani_claims = {
 			allow = {
 				#tag = DLH
 			}
@@ -235,7 +241,7 @@ age_of_discovery = {
 				factor = 100
 			}
 		}
-		abe_ethiopia_prester_john = {
+		ase_ethiopia_prester_john = {
 			allow = {
 				#tag = ETH
 			}
@@ -246,7 +252,7 @@ age_of_discovery = {
 				factor = 100
 			}
 		}
-		abe_florence_renaissance = {
+		ase_florence_renaissance = {
 			allow = {
 				#tag = LAN
 			}
@@ -257,7 +263,7 @@ age_of_discovery = {
 				factor = 100
 			}
 		}
-		abe_hungary_defense = {
+		ase_hungary_defense = {
 			allow = {
 				#tag = HUN
 			}
@@ -268,7 +274,7 @@ age_of_discovery = {
 				factor = 100
 			}
 		}
-		abe_malacca_spices = {
+		ase_malacca_spices = {
 			allow = {
 				#OR = {
 				#	tag = MLC
@@ -282,7 +288,7 @@ age_of_discovery = {
 				factor = 100
 			}
 		}
-		abe_ming_grand_imperial_projects = {
+		ase_ming_grand_imperial_projects = {
 			allow = {
 				#tag = MNG
 			}
@@ -293,7 +299,7 @@ age_of_discovery = {
 				factor = 100
 			}
 		}
-		abe_qoyunlu_feuds = {
+		ase_qoyunlu_feuds = {
 			allow = {
 				#OR = {
 				#	tag = AKK
@@ -307,7 +313,7 @@ age_of_discovery = {
 				factor = 100
 			}
 		}
-		abe_songhai_timbuktu_university = {
+		ase_songhai_timbuktu_university = {
 			allow = {
 				#tag = SON
 			}
@@ -318,7 +324,7 @@ age_of_discovery = {
 				factor = 100
 			}
 		}
-		abe_vijayanagar_nayankara = {
+		ase_vijayanagar_nayankara = {
 			allow = {
 				#tag = VIJ
 			}
@@ -354,8 +360,23 @@ age_of_reformation = {
 		}
 		obj_humanism_religious = {
 			OR = {
+				if = {
+					limit = {
+						is_expanded_mod_active = { mod = idea_groups }
+					}
+					OR = {
+						full_idea_group = christian_idea_groups_expanded
+						full_idea_group = muslim_idea_groups_expanded
+						full_idea_group = confucian_idea_groups_expanded
+						full_idea_group = muslim_idea_groups_expanded
+						full_idea_group = humanist_ideas
+						full_idea_group = religious_ideas
+					}
+				}
+				else = {
+					full_idea_group = religious_ideas
+				}
 				full_idea_group = humanist_ideas
-				full_idea_group = religious_ideas
 			}
 		}
 		obj_convert_10_provinces = {
@@ -512,7 +533,7 @@ age_of_reformation = {
 			}
 		}
 		
-		abe_bavaria_centralisation = {
+		ase_bavaria_centralisation = {
 			allow = {
 				#tag = BAV
 			}
@@ -523,7 +544,7 @@ age_of_reformation = {
 				factor = 100
 			}
 		}
-		abe_brandenburg_war_commissariat = {
+		ase_brandenburg_war_commissariat = {
 			allow = {
 				#tag = BRA
 			}
@@ -534,7 +555,7 @@ age_of_reformation = {
 				factor = 100
 			}
 		}
-		abe_palatinate_court = {
+		ase_palatinate_court = {
 			allow = {
 				#tag = PAL
 			}
@@ -545,7 +566,7 @@ age_of_reformation = {
 				factor = 100
 			}
 		}
-		abe_papal_warrior = {
+		ase_papal_warrior = {
 			allow = {
 				#tag = PAP
 			}
@@ -556,7 +577,7 @@ age_of_reformation = {
 				factor = 100
 			}
 		}
-		abe_saxony_piety = {
+		ase_saxony_piety = {
 			allow = {
 				#tag = SAX
 			}
@@ -567,7 +588,7 @@ age_of_reformation = {
 				factor = 100
 			}
 		}
-		abe_switzerland_neutrality = {
+		ase_switzerland_neutrality = {
 			allow = {
 				#tag = SWI
 			}
@@ -578,7 +599,7 @@ age_of_reformation = {
 				factor = 100
 			}
 		}
-		abe_taungu_military_reforms = {
+		ase_taungu_military_reforms = {
 			allow = {
 				#tag = TAU
 			}
@@ -749,7 +770,7 @@ age_of_absolutism = {
 			}
 		}
 
-		abe_japan_prosperity = {
+		ase_japan_prosperity = {
 			allow = {
 				#tag = JAP
 			}
@@ -760,7 +781,7 @@ age_of_absolutism = {
 				factor = 100
 			}
 		}
-		abe_morocco_expedition = {
+		ase_morocco_expedition = {
 			allow = {
 				#tag = MOR
 			}
@@ -771,7 +792,7 @@ age_of_absolutism = {
 				factor = 100
 			}
 		}
-		abe_maghrebi_piracy = {
+		ase_maghrebi_piracy = {
 			allow = {
 				#culture_group = maghrebi
 			}
@@ -961,7 +982,7 @@ age_of_revolutions = {
 			}
 		}
 
-		abe_germany_industrialisation = {
+		ase_germany_industrialisation = {
 			allow = {
 				#tag = GER
 			}
@@ -972,7 +993,7 @@ age_of_revolutions = {
 				factor = 100
 			}
 		}
-		abe_hanover_marriages = {
+		ase_hanover_marriages = {
 			allow = {
 				#tag = HAN
 			}
@@ -983,7 +1004,7 @@ age_of_revolutions = {
 				factor = 100
 			}
 		}
-		abe_italian_hegemony = {
+		ase_italian_hegemony = {
 			allow = {
 				#OR = {
 				#	tag = SPI
@@ -997,7 +1018,7 @@ age_of_revolutions = {
 				factor = 100
 			}
 		}
-		abe_marathas_horsemen = {
+		ase_marathas_horsemen = {
 			allow = {
 				#tag = MAR
 			}
@@ -1008,7 +1029,7 @@ age_of_revolutions = {
 				factor = 100
 			}
 		}
-		abe_united_states_marines = {
+		ase_united_states_marines = {
 			allow = {
 				#tag = USA
 			}

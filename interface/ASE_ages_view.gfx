@@ -1,0 +1,106 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ab_persia_court"
+		texturefile = "gfx/interface/ages/ab_persia_court.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_delhi_hindustani_claims"
+		texturefile = "gfx/interface/ages/ase_delhi_hindustani_claims.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_ethiopia_prester_john"
+		texturefile = "gfx/interface/ages/ase_ethiopia_prester_john.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_florence_renaissance"
+		texturefile = "gfx/interface/ages/ase_florence_renaissance.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_hungary_defense"
+		texturefile = "gfx/interface/ages/ase_hungary_defense.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_malacca_spices"
+		texturefile = "gfx/interface/ages/ase_malacca_spices.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_ming_grand_imperial_projects"
+		texturefile = "gfx/interface/ages/ase_ming_grand_imperial_projects.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_qoyunlu_feuds"
+		texturefile = "gfx/interface/ages/ase_qoyunlu_feuds.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_songhai_timbuktu_university"
+		texturefile = "gfx/interface/ages/ase_songhai_timbuktu_university.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_vijayanagar_nayankara"
+		texturefile = "gfx/interface/ages/ase_vijayanagar_nayankara.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_bavaria_centralisation"
+		texturefile = "gfx/interface/ages/ase_bavaria_centralisation.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_brandenburg_war_commissariat"
+		texturefile = "gfx/interface/ages/ase_brandenburg_war_commissariat.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_palatinate_court"
+		texturefile = "gfx/interface/ages/ase_palatinate_court.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_papal_warrior"
+		texturefile = "gfx/interface/ages/ase_papal_warrior.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_saxony_piety"
+		texturefile = "gfx/interface/ages/ase_saxony_piety.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_switzerland_neutrality"
+		texturefile = "gfx/interface/ages/ase_switzerland_neutrality.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_taungu_military_reforms"
+		texturefile = "gfx/interface/ages/ase_taungu_military_reforms.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_japan_prosperity"
+		texturefile = "gfx/interface/ages/ase_japan_prosperity.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_morocco_expedition"
+		texturefile = "gfx/interface/ages/ase_morocco_expedition.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_maghrebi_piracy"
+		texturefile = "gfx/interface/ages/ase_maghrebi_piracy.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_germany_industrialisation"
+		texturefile = "gfx/interface/ages/ase_germany_industrialisation.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_hanover_marriages"
+		texturefile = "gfx/interface/ages/ase_hanover_marriages.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_italian_hegemony"
+		texturefile = "gfx/interface/ages/ase_italian_hegemony.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_marathas_horsemen"
+		texturefile = "gfx/interface/ages/ase_marathas_horsemen.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_united_states_marines"
+		texturefile = "gfx/interface/ages/ase_united_states_marines.dds"
+	}
+	spriteType = {
+		name = "GFX_"
+		texturefile = "gfx/interface/ages/.dds"
+	}
+}

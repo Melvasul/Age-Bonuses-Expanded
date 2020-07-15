@@ -1,0 +1,44 @@
+﻿l_english:
+ #Tooltips
+ RULER_STAT_INFERIOR_12_TOOLTIP: "Your court splendor is below 12"
+ RULER_STAT_12_TOOLTIP: "Your court splendor is 12 or higher"
+ RULER_STAT_18_TOOLTIP: "Your court splendor is 18"
+
+ #Age bonuses
+ ab_persia_court: "Persian Court"
+ #Discovery
+ ase_delhi_hindustani_claims: "Hindustani Claims"
+ ase_ethiopia_prester_john: "Prester John"
+ ase_florence_renaissance: "Tuscan Renaissance"
+ ase_hungary_defense: "Hungarian Defense"
+ ase_malacca_spices: "Malaccan Spices"
+ ase_ming_grand_imperial_projects: "Grand Imperial Projects"
+ ase_qoyunlu_feuds: "Qoyunlu Feuds"
+ ase_songhai_timbuktu_university: "Timbuktu University"
+ ase_vijayanagar_nayankara: "Nayankara"
+
+ #Reformation
+ ase_bavaria_centralisation: "Bavarian Centralization"
+ ase_brandenburg_war_commissariat: "Brandenburg War commissariat"
+ ase_palatinate_court: "Palatine Court"
+ ase_papal_warrior: "Papal Warrior"
+ ase_saxony_piety: "Saxon Piety"
+ ase_switzerland_neutrality: "Swiss Neutrality"
+ ase_taungu_military_reforms: "Taungu Military Culture"
+
+ #Absolutism
+ ase_japan_prosperity: "Japanese Prosperity"
+ ase_morocco_expedition: "Moroccan Interior"
+ ase_maghrebi_piracy: "Barbary Pirates"
+
+ #Revolution
+ ase_germany_industrialisation: "German Industrialisation"
+ ase_hanover_marriages: "Hanoverian Marriages"
+ ase_italian_hegemony: "Italian Hegemony"
+ ase_marathas_horsemen: "Maratha Horsemen"
+ ase_united_states_marines: "US Marines"
+
+ #Triggered Modifier
+ splendor_triggered_modifier_1: "Court Splendor"
+ splendor_triggered_modifier_2: "Court Splendor"
+ splendor_triggered_modifier_3: "Court Splendor"
