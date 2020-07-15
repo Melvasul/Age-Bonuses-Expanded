@@ -42,3 +42,8 @@
  splendor_triggered_modifier_1: "Court Splendor"
  splendor_triggered_modifier_2: "Court Splendor"
  splendor_triggered_modifier_3: "Court Splendor"
+
+ #Events
+ age_splendor_expanded_events.1.T: "This is a hidden event"
+ age_splendor_expanded_events.1.D: "Its sole purpose is to tell the other expanded mod that this mod is active as well, but you should not be able to see this. \nRefere to Melvasul in the Expanded discord, if you see this."
+ age_splendor_expanded_events.1.OPT1: "Melvasul, Expanded Discord"
