@@ -259,7 +259,7 @@ guiTypes = {
 			name ="objectives"
 			position = { x = 10 y = 280 }
 			backGround=""
-			size = { x =700 y =560}
+			size = { x = 560 y = 375}
 			Orientation = "UPPER_LEFT"
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"

@@ -91,6 +91,20 @@ age_of_discovery = {
 				has_country_flag = humiliated_rival
 			}
 		}
+		abe_build_fleet = {
+			OR = {
+				religion = protestant
+				religion = reformed
+				religion = anglican
+				religion = hussite
+			}
+		}
+		abe_piles_of_gold = {
+			OR = {
+				full_idea_group = humanist_ideas
+				full_idea_group = religious_ideas
+			}
+		}
 	}
 	
 	abilities = {
