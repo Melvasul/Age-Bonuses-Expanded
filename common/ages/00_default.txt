@@ -107,10 +107,6 @@ age_of_discovery = {
 				has_country_flag = humiliated_rival
 			}
 		}
-		ase_build_fleet = {
-		}
-		ase_piles_of_gold = {
-		}
 	}
 	
 	abilities = {
@@ -232,7 +228,7 @@ age_of_discovery = {
 
 		ase_delhi_hindustani_claims = {
 			allow = {
-				#tag = DLH
+				tag = DLH
 			}
 			modifier = {
 				ae_impact = -0.10
@@ -243,7 +239,7 @@ age_of_discovery = {
 		}
 		ase_ethiopia_prester_john = {
 			allow = {
-				#tag = ETH
+				tag = ETH
 			}
 			modifier = {
 				global_prov_trade_power_modifier = 0.30
@@ -254,7 +250,7 @@ age_of_discovery = {
 		}
 		ase_florence_renaissance = {
 			allow = {
-				#tag = LAN
+				tag = LAN
 			}
 			modifier = {
 				idea_cost = -0.15
@@ -265,7 +261,7 @@ age_of_discovery = {
 		}
 		ase_hungary_defense = {
 			allow = {
-				#tag = HUN
+				tag = HUN
 			}
 			modifier = {
 				defensiveness = 0.35
@@ -276,10 +272,10 @@ age_of_discovery = {
 		}
 		ase_malacca_spices = {
 			allow = {
-				#OR = {
-				#	tag = MLC
-				#	tag = MSA
-				#}
+				OR = {
+					tag = MLC
+					tag = MSA
+				}
 			}
 			modifier = {
 				global_own_trade_power = 0.30
@@ -290,7 +286,7 @@ age_of_discovery = {
 		}
 		ase_ming_grand_imperial_projects = {
 			allow = {
-				#tag = MNG
+				tag = MNG
 			}
 			modifier = {
 				build_cost = -0.20
@@ -301,10 +297,10 @@ age_of_discovery = {
 		}
 		ase_qoyunlu_feuds = {
 			allow = {
-				#OR = {
-				#	tag = AKK
-				#	tag = QAR
-				#}
+				OR = {
+					tag = AKK
+					tag = QAR
+				}
 			}
 			modifier = {
 				province_warscore_cost = -0.25
@@ -315,7 +311,7 @@ age_of_discovery = {
 		}
 		ase_songhai_timbuktu_university = {
 			allow = {
-				#tag = SON
+				tag = SON
 			}
 			modifier = {
 				technology_cost = -0.10
@@ -326,7 +322,7 @@ age_of_discovery = {
 		}
 		ase_vijayanagar_nayankara = {
 			allow = {
-				#tag = VIJ
+				tag = VIJ
 			}
 			modifier = {
 				leader_cost = -0.50
@@ -523,7 +519,7 @@ age_of_reformation = {
 
 		ab_persia_court = {
 			allow = {
-				#tag = PER
+				tag = PER
 			}
 			modifier = {
 				advisor_cost = -0.30
@@ -535,7 +531,7 @@ age_of_reformation = {
 		
 		ase_bavaria_centralisation = {
 			allow = {
-				#tag = BAV
+				tag = BAV
 			}
 			modifier = {
 				global_autonomy = -0.30
@@ -546,7 +542,7 @@ age_of_reformation = {
 		}
 		ase_brandenburg_war_commissariat = {
 			allow = {
-				#tag = BRA
+				tag = BRA
 			}
 			modifier = {
 				war_taxes_cost_modifier = -1.0
@@ -557,7 +553,7 @@ age_of_reformation = {
 		}
 		ase_palatinate_court = {
 			allow = {
-				#tag = PAL
+				tag = PAL
 			}
 			modifier = {
 				diplomatic_upkeep = 2
@@ -568,7 +564,7 @@ age_of_reformation = {
 		}
 		ase_papal_warrior = {
 			allow = {
-				#tag = PAP
+				tag = PAP
 			}
 			modifier = {
 				leader_land_shock = 1
@@ -579,7 +575,7 @@ age_of_reformation = {
 		}
 		ase_saxony_piety = {
 			allow = {
-				#tag = SAX
+				tag = SAX
 			}
 			modifier = {
 				tolerance_own = 3
@@ -590,7 +586,7 @@ age_of_reformation = {
 		}
 		ase_switzerland_neutrality = {
 			allow = {
-				#tag = SWI
+				tag = SWI
 			}
 			modifier = {
 				improve_relation_modifier = 0.30
@@ -601,7 +597,7 @@ age_of_reformation = {
 		}
 		ase_taungu_military_reforms = {
 			allow = {
-				#tag = TAU
+				tag = TAU
 			}
 			modifier = {
 				infantry_power = 0.20
@@ -772,7 +768,7 @@ age_of_absolutism = {
 
 		ase_japan_prosperity = {
 			allow = {
-				#tag = JAP
+				tag = JAP
 			}
 			modifier = {
 				development_cost = -0.15
@@ -783,7 +779,7 @@ age_of_absolutism = {
 		}
 		ase_morocco_expedition = {
 			allow = {
-				#tag = MOR
+				tag = MOR
 			}
 			modifier = {
 				land_attrition = -0.50
@@ -794,7 +790,7 @@ age_of_absolutism = {
 		}
 		ase_maghrebi_piracy = {
 			allow = {
-				#culture_group = maghrebi
+				culture_group = maghrebi
 			}
 			modifier = {
 				light_ship_power = 0.20
@@ -984,7 +980,7 @@ age_of_revolutions = {
 
 		ase_germany_industrialisation = {
 			allow = {
-				#tag = GER
+				tag = GER
 			}
 			modifier = {
 				production_efficiency = 0.33
@@ -995,7 +991,7 @@ age_of_revolutions = {
 		}
 		ase_hanover_marriages = {
 			allow = {
-				#tag = HAN
+				tag = HAN
 			}
 			modifier = {
 				prestige = 2
@@ -1006,10 +1002,10 @@ age_of_revolutions = {
 		}
 		ase_italian_hegemony = {
 			allow = {
-				#OR = {
-				#	tag = SPI
-				#	tag = ITA
-				#}
+				OR = {
+					tag = SPI
+					tag = ITA
+				}
 			}
 			modifier = {
 				administrative_efficiency = 0.05
@@ -1020,7 +1016,7 @@ age_of_revolutions = {
 		}
 		ase_marathas_horsemen = {
 			allow = {
-				#tag = MAR
+				tag = MAR
 			}
 			modifier = {
 				shock_damage = 0.20
@@ -1031,7 +1027,7 @@ age_of_revolutions = {
 		}
 		ase_united_states_marines = {
 			allow = {
-				#tag = USA
+				tag = USA
 			}
 			modifier = {
 				allowed_marine_fraction = 0.15
