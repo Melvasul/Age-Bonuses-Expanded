@@ -7,3 +7,4 @@ tags={
 }
 name="Ages and Splendor Expanded"
 supported_version="1.30.3"
+remote_file_id="2172666098"
