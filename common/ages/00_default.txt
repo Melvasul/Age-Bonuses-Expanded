@@ -433,9 +433,9 @@ age_of_reformation = {
 		}
 
 		ase_foster_piety = {
-			OR = {
-				temple = 5
-				cathedral = 5
+			num_of_owned_provinces_with = {
+				value = 5
+				has_tax_building_trigger = yes
 			}
 		}
 		ase_prepare_war = {

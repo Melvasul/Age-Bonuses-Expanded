@@ -7,11 +7,11 @@
  ab_persia_court: "Persian Court"
  #Discovery
  ase_build_fleet: "Build a Fleet"
- ase_build_fleet_desc: "What the hell should it be here?"
+ ase_build_fleet_desc: "Has at least 6 Heavy Ships or 20 Light Ships"
  ase_piles_gold: "Piles of Gold"
- ase_piles_gold_desc: "What the hell should it be here?"
+ ase_piles_gold_desc: "Own at least 3 provinces producing Gold"
  ase_dynamic_court: "Dynamic Court"
- ase_dynamic_court_desc: "What the hell should it be here?"
+ ase_dynamic_court_desc: "Has employed an advisor for each type"
 
  ase_delhi_hindustani_claims: "Hindustani Claims"
  ase_ethiopia_prester_john: "Prester John"
@@ -25,11 +25,11 @@
 
  #Reformation
  ase_foster_piety: "Foster Piety"
- ase_foster_piety_desc: "What the hell?"
+ ase_foster_piety_desc: "Has at least 5 temples or cathedrals"
  ase_prepare_war: "Preapare for War"
- ase_prepare_war_desc: "What the hell?"
+ ase_prepare_war_desc: "Has joined the Protestant or Catholic League"
  ase_strength_unity: "Strength in Unity"
- ase_strength_unity_desc: "What the hell?"
+ ase_strength_unity_desc: "Has 100% Religious Unity"
 
  ase_bavaria_centralisation: "Bavarian Centralization"
  ase_brandenburg_war_commissariat: "Brandenburg War commissariat"
@@ -41,11 +41,11 @@
 
  #Absolutism
  ase_economic_theory: "Economic Theory"
- ase_economic_theory_desc: "Hi?"
+ ase_economic_theory_desc: "Has completed either the Trade or Economic ideas group"
  ase_innovative_culture: "Innovative Culture"
- ase_innovative_culture_desc: "Hi?"
+ ase_innovative_culture_desc: "Has at least 30 innovativeness"
  ase_stable_society: "Stable Society"
- ase_stable_society_desc: "Hi?"
+ ase_stable_society_desc: "Has a National Unrest inferior to -7"
 
  ase_japan_prosperity: "Japanese Prosperity"
  ase_morocco_expedition: "Moroccan Interior"
@@ -53,11 +53,11 @@
 
  #Revolution
  ase_industrial_nation: "Industrial Nation"
- ase_industrial_nation_desc: "Fuck you"
+ ase_industrial_nation_desc: "Has 5 furnaces"
  ase_powerful_diplomacy: "Powerful Diplomacy"
- ase_powerful_diplomacy_desc: "Fuck you"
+ ase_powerful_diplomacy_desc: "Has 7 diplomatic relations slots"
  ase_join_revolution: "Join the Revolution"
- ase_join_revolution_desc: "Fuck you"
+ ase_join_revolution_desc: "Is revolutionary"
 
  ase_germany_industrialisation: "German Industrialisation"
  ase_hanover_marriages: "Hanoverian Marriages"
