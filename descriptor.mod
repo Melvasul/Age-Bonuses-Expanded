@@ -5,5 +5,5 @@ tags={
 	"Gameplay"
 	"Expansion"
 }
-name="AgeBonusesExpanded"
+name="Ages and Splendor Expanded"
 supported_version="1.30.3"
