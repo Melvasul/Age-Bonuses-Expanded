@@ -99,6 +99,56 @@ spriteTypes = {
 		name = "GFX_ase_united_states_marines"
 		texturefile = "gfx/interface/ages/ase_united_states_marines.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_ase_build_fleet"
+		texturefile = "gfx/interface/ages/ase_build_fleet.dds"
+	}	
+	spriteType = {
+		name = "GFX_ase_piles_gold"
+		texturefile = "gfx/interface/ages/ase_piles_gold.dds"
+	}	
+	spriteType = {
+		name = "GFX_ase_dynamic_court"
+		texturefile = "gfx/interface/ages/ase_dynamic_court.dds"
+	}	
+	spriteType = {
+		name = "GFX_ase_foster_piety"
+		texturefile = "gfx/interface/ages/ase_foster_piety.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ase_prepare_war"
+		texturefile = "gfx/interface/ages/ase_prepare_war.dds"
+	}	
+	spriteType = {
+		name = "GFX_ase_strength_unity"
+		texturefile = "gfx/interface/ages/ase_strength_unity.dds"
+	}	
+	spriteType = {
+		name = "GFX_ase_economic_theory"
+		texturefile = "gfx/interface/ages/ase_economic_theory.dds"
+	}	
+	spriteType = {
+		name = "GFX_ase_innovative_culture"
+		texturefile = "gfx/interface/ages/ase_innovative_culture.dds"
+	}	
+	spriteType = {
+		name = "GFX_ase_stable_society"
+		texturefile = "gfx/interface/ages/ase_stable_society.dds"
+	}	
+	spriteType = {
+		name = "GFX_ase_industrial_nation"
+		texturefile = "gfx/interface/ages/ase_industrial_nation.dds"
+	}	
+	spriteType = {
+		name = "GFX_ase_powerful_diplomacy"
+		texturefile = "gfx/interface/ages/ase_powerful_diplomacy.dds"
+	}	
+	spriteType = {
+		name = "GFX_ase_join_revolution"
+		texturefile = "gfx/interface/ages/ase_join_revolution.dds"
+	}	
 	spriteType = {
 		name = "GFX_"
 		texturefile = "gfx/interface/ages/.dds"

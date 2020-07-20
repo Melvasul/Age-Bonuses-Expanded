@@ -107,6 +107,24 @@ age_of_discovery = {
 				has_country_flag = humiliated_rival
 			}
 		}
+
+		ase_build_fleet = {
+			OR = {
+				num_of_heavy_ship = 6
+				num_of_light_ship = 20
+			}
+		}
+		ase_piles_gold = {
+			num_of_owned_provinces_with = {
+				value = 3
+				trade_goods = gold
+			}
+		}
+		ase_dynamic_court = {
+			has_adm_advisor = yes
+			has_dip_advisor = yes
+			has_mil_advisor = yes
+		}
 	}
 	
 	abilities = {
@@ -413,6 +431,22 @@ age_of_reformation = {
 			is_subject = no
 			has_unified_culture_group = yes
 		}
+
+		ase_foster_piety = {
+			OR = {
+				temple = 5
+				cathedral = 5
+			}
+		}
+		ase_prepare_war = {
+			OR = {
+				in_league = protestant
+				in_league = catholic
+			}
+		}
+		ase_strength_unity = {
+			religious_unity = 1
+		}
 	}
 
 	abilities = {
@@ -479,7 +513,6 @@ age_of_reformation = {
 				factor = 10
 			}
 		}
-
 		ab_spain_tercio = {
 			allow = {
 				tag = SPA
@@ -656,6 +689,19 @@ age_of_absolutism = {
 				tooltip = obj_religious_league_war_on_winning_side_tooltip
 				has_country_flag = religious_league_war_on_winning_side
 			}			
+		}
+
+		ase_economic_theory = {
+			OR = {
+				full_idea_group = trade_ideas
+				full_idea_group = economic_ideas
+			}			
+		}
+		ase_innovative_culture = {
+			innovativeness = 30
+		}
+		ase_stable_society = {
+			NOT = { unrest = -7 }
 		}
 	}	
 	
@@ -855,6 +901,16 @@ age_of_revolutions = {
 		}	
 		obj_two_institutions = {
 			num_of_owned_and_controlled_institutions = 2
+		}
+
+		ase_industrial_nation = {
+			furnace = 5
+		}
+		ase_powerful_diplomacy = {
+			num_of_diplomatic_relations = 7
+		}
+		ase_join_revolution = {
+			is_revolution_target = yes
 		}
 	}
 
