@@ -287,7 +287,7 @@ age_of_discovery = {
 				tag = LAN
 			}
 			modifier = {
-				idea_cost = -0.15
+				idea_cost = -0.075
 			}
 			ai_will_do = {
 				factor = 100
@@ -450,7 +450,7 @@ age_of_reformation = {
 
 		ase_foster_piety = {
 			num_of_owned_provinces_with = {
-				value = 5
+				value = 10
 				has_tax_building_trigger = yes
 			}
 		}
@@ -587,7 +587,7 @@ age_of_reformation = {
 				tag = BAV
 			}
 			modifier = {
-				global_autonomy = -0.30
+				global_autonomy = -0.3
 			}
 			ai_will_do = {
 				factor = 100
@@ -857,6 +857,7 @@ age_of_absolutism = {
 		ase_maghrebi_piracy = {
 			allow = {
 				culture_group = maghrebi
+				NOT = { tag = MOR }
 			}
 			modifier = {
 				light_ship_power = 0.20
