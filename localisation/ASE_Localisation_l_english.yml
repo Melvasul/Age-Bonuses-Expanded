@@ -74,3 +74,13 @@
  age_splendor_expanded_events.1.T: "This is a hidden event"
  age_splendor_expanded_events.1.D: "Its sole purpose is to tell the other expanded mod that this mod is active as well, but you should not be able to see this. \nRefere to Melvasul in the Expanded discord, if you see this."
  age_splendor_expanded_events.1.OPT1: "Melvasul, Expanded Discord"
+
+ Ages_Splendor_Expanded_Events.1.T: "A Splendor Court"
+ Ages_Splendor_Expanded_Events.1.D: ""
+ Ages_Splendor_Expanded_Events.1.OPT1: ""
+ Ages_Splendor_Expanded_Events.1.OPT2: ""
+ Ages_Splendor_Expanded_Events.1.OPT3: ""
+ Ages_Splendor_Expanded_Events.1.OPT4: ""
+
+ ase_splendor_decision_title: "Invest the Court Splendor"
+ ase_splendor_decision_decision: ""
