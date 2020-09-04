@@ -21,7 +21,7 @@ country_event = {
 			factor = 20
 		}
 
-		add_splendor = -100		
+		add_splendor = -200		
 		add_stability = 1
 	}
 
