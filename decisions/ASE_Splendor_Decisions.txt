@@ -2,7 +2,18 @@ country_decisions = {
 	ase_splendor_decision = {
 		major = yes
 		potential = {
-			NOT = {
+			OR = {
+				NOT = { stability = 3 }
+				NOT = { prestige = 90 }
+				NOT = { legitimacy_equivalent = 90 }
+				num_of_owned_provinces_with = {
+					value = 1
+					is_state = yes
+					NOT = { prosperity = 90 }
+				}
+			}
+			OR = {
+				NOT = { has_country_flag = ase_splendor_decision_flag }
 				had_country_flag = {
 					flag = ase_splendor_decision_flag
 					days = 365

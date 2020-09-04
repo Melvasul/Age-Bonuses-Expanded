@@ -75,6 +75,11 @@ country_event = {
 		trigger = {
 			hidden_trigger = {
 				has_dlc = "Mandate of Heaven"
+				num_of_owned_provinces_with = {
+					value = 1
+					is_state = yes
+					NOT = { prosperity = 90 }
+				}
 			}
 		}
 		
