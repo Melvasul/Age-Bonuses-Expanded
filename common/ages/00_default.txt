@@ -69,7 +69,7 @@ age_of_discovery = {
 	 		all_state_province = {
 	 			renaissance = 100
 	 		}
-		}		
+		}
 		obj_two_unions = {
 			allow = {
 				religion_group = christian
@@ -194,13 +194,53 @@ age_of_discovery = {
 				factor = 10
 				modifier = {
 					factor = 0
-					NOT = { num_of_colonists = 1 }
+					NOT = { num_of_explorers = 1 }
 				}
 			}
 		}
 		ab_attack_bonus_in_capital_terrain = {
 			rule = {
 				attack_bonus_in_capital_terrain = yes
+			}
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					factor = 0
+					NOT = { num_of_colonists = 1 }
+				}
+			}
+		}
+
+		ase_exploration_corps = {
+			rule = {
+				free_maintenance_on_expl_conq = yes
+			}
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					factor = 0
+					OR = {
+						NOT = { num_of_explorer = 1 }
+						NOT = { num_of_conquistadors = 1 }
+					}
+				}
+			}
+		}
+		ase_renown_explorer = {
+			modifier = {
+				range = 0.33
+			}
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					factor = 0
+					NOT = { num_of_explorer = 1 }
+				}
+			}
+		}
+		ase_sea_life = {
+			modifier = {
+				naval_attrition = -0.25
 			}
 			ai_will_do = {
 				factor = 10
@@ -728,7 +768,7 @@ age_of_absolutism = {
 			OR = {
 				full_idea_group = trade_ideas
 				full_idea_group = economic_ideas
-			}			
+			}
 		}
 		ase_innovative_culture = {
 			innovativeness = 30
