@@ -6,24 +6,20 @@ country_event = {
 	desc = Ages_Splendor_Expanded_Events.1.D
 	picture = GOOD_WITH_MONARCH_eventPicture
 
-	is_triggered_only = yes
+	trigger = {
+		has_country_flag = ase_splendor_decision_flag
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = Ages_Splendor_Expanded_Events.1.OPT1
 
-		trigger = {
-			hidden_trigger = {
-				NOT = { stability = 3 }
-				splendor = 500
-			}
-		}
-
 		ai_chance = {
-			factor = 15
-		}
-
-		add_splendor = -500
-		add_stability = 1
+			factor = 13
+		}		
 	}
 
 	option = {
@@ -37,7 +33,7 @@ country_event = {
 
 		add_splendor = -100
 		ai_chance = {
-			factor = 15
+			factor = 13
 		}
 
 		add_prestige = 10
@@ -53,7 +49,7 @@ country_event = {
 		}
 
 		ai_chance = {
-			factor = 15
+			factor = 13
 		}
 
 		add_splendor = -100
@@ -85,7 +81,7 @@ country_event = {
 		}
 		
 		ai_chance = {
-			factor = 15
+			factor = 13
 		}
 
 		add_splendor = -100
@@ -102,7 +98,7 @@ country_event = {
 		name = Ages_Splendor_Expanded_Events.1.OPT5
 		
 		ai_chance = {
-			factor = 15
+			factor = 13
 		}
 
 		if = {
@@ -288,7 +284,7 @@ country_event = {
 		name = Ages_Splendor_Expanded_Events.1.OPT6
 		
 		ai_chance = {
-			factor = 15
+			factor = 13
 		}
 
 		if = {
@@ -300,6 +296,12 @@ country_event = {
 			hidden_effect = {
 				random_list = {
 					15 = {
+						trigger = {
+							OR = {
+								is_colonial_nation = yes
+								num_of_colonists = 1
+							}
+						}
 						define_advisor = {
 							skill = 1
 							type = colonial_governor
@@ -314,6 +316,15 @@ country_event = {
 						}
 					}
 					15 = {
+						trigger = {
+							OR = {
+								num_of_owned_provinces_with = {
+									value = 1
+									has_port = yes
+								}
+								primitives = no
+							}
+						}
 						define_advisor = {
 							skill = 1
 							type = naval_reformer
@@ -321,6 +332,9 @@ country_event = {
 						}
 					}
 					15 = {
+						trigger = {
+							num_of_colonists = 1
+						}
 						define_advisor = {
 							skill = 1
 							type = navigator
@@ -360,6 +374,12 @@ country_event = {
 			hidden_effect = {
 				random_list = {
 					15 = {
+						trigger = {
+							OR = {
+								is_colonial_nation = yes
+								num_of_colonists = 1
+							}
+						}
 						define_advisor = {
 							skill = 2
 							type = colonial_governor
@@ -374,6 +394,15 @@ country_event = {
 						}
 					}
 					15 = {
+						trigger = {
+							OR = {
+								num_of_owned_provinces_with = {
+									value = 1
+									has_port = yes
+								}
+								primitives = no
+							}
+						}
 						define_advisor = {
 							skill = 2
 							type = naval_reformer
@@ -381,6 +410,9 @@ country_event = {
 						}
 					}
 					15 = {
+						trigger = {
+							num_of_colonists = 1
+						}
 						define_advisor = {
 							skill = 2
 							type = navigator
@@ -417,6 +449,12 @@ country_event = {
 			hidden_effect = {
 				random_list = {
 					15 = {
+						trigger = {
+							OR = {
+								is_colonial_nation = yes
+								num_of_colonists = 1
+							}
+						}
 						define_advisor = {
 							skill = 3
 							type = colonial_governor
@@ -431,6 +469,15 @@ country_event = {
 						}
 					}
 					15 = {
+						trigger = {
+							OR = {
+								num_of_owned_provinces_with = {
+									value = 1
+									has_port = yes
+								}
+								primitives = no
+							}
+						}
 						define_advisor = {
 							skill = 3
 							type = naval_reformer
@@ -438,6 +485,9 @@ country_event = {
 						}
 					}
 					15 = {
+						trigger = {
+							num_of_colonists = 1
+						}
 						define_advisor = {
 							skill = 3
 							type = navigator
@@ -474,7 +524,7 @@ country_event = {
 		name = Ages_Splendor_Expanded_Events.1.OPT7
 		
 		ai_chance = {
-			factor = 15
+			factor = 13
 		}
 
 		if = {
@@ -654,5 +704,23 @@ country_event = {
 				}
 			}
 		}
+	}
+
+	option = {
+		name = Ages_Splendor_Expanded_Events.1.OPT8
+
+		trigger = {
+			hidden_trigger = {
+				NOT = { stability = 3 }
+				splendor = 500
+			}
+		}
+
+		ai_chance = {
+			factor = 13
+		}
+
+		add_splendor = -500
+		add_stability = 1
 	}
 }
