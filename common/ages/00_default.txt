@@ -206,6 +206,49 @@ age_of_discovery = {
 				factor = 10
 			}
 		}
+
+		ase_renown_explorer = {
+			modifier = {
+				exploration_mission_range_in_fleet_modifier = 250
+			}
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					factor = 0
+					OR = {
+						NOT = { has_idea_group = exploration_ideas }
+						num_of_explorers = 1
+					}
+				}
+			}
+		}
+		ase_exploration_corp = {
+			rule = {
+				free_maintenance_on_expl_conq = yes
+			}
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					factor = 0
+					OR = {
+						NOT = { has_idea_group = exploration_ideas }
+						num_of_explorers = 1
+					}
+				}
+			}
+		}
+		ase_sea_life = {
+			modifier = {
+				naval_attrition = -0.25
+			}
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					factor = 0
+					NOT = { naval_forcelimit = 5 }
+				}
+			}
+		}
 		
 		ab_ottoman_siege_ability = {
 			allow = {
@@ -1115,12 +1158,12 @@ age_of_revolutions = {
 				factor = 100
 			}
 		}
-		ase_united_states_marines = {
+		ase_united_states = {
 			allow = {
 				tag = USA
 			}
 			modifier = {
-				allowed_marine_fraction = 0.15
+				global_regiment_recruit_speed = -0.33
 			}
 			ai_will_do = {
 				factor = 100

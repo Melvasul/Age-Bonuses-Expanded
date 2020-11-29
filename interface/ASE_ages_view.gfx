@@ -96,8 +96,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/ase_marathas_horsemen.dds"
 	}
 	spriteType = {
-		name = "GFX_ase_united_states_marines"
-		texturefile = "gfx/interface/ages/ase_united_states_marines.dds"
+		name = "GFX_ase_united_states"
+		texturefile = "gfx/interface/ages/ase_united_states.dds"
 	}
 	
 	spriteType = {
