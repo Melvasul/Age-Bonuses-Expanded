@@ -4,6 +4,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/ab_persia_court.dds"
 	}
 	spriteType = {
+		name = "GFX_ase_exploration_corp"
+		texturefile = "gfx/interface/ages/ase_exploration_corp.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_glorious_renaissance"
+		texturefile = "gfx/interface/ages/ase_glorious_renaissance.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_ruling_dynasty"
+		texturefile = "gfx/interface/ages/ase_ruling_dynasty.dds"
+	}
+	spriteType = {
 		name = "GFX_ase_delhi_hindustani_claims"
 		texturefile = "gfx/interface/ages/ase_delhi_hindustani_claims.dds"
 	}
