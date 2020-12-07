@@ -230,6 +230,9 @@ age_of_discovery = {
 			}
 		}
 		ase_ruling_dynasty = {
+			allow = {
+				government = republic
+			}
 			modifier = {
 				reelection_cost = -0.10
 			}
