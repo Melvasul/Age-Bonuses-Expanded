@@ -207,45 +207,37 @@ age_of_discovery = {
 			}
 		}
 
-		ase_renown_explorer = {
-			modifier = {
-				exploration_mission_range_in_fleet_modifier = 250
-			}
-			ai_will_do = {
-				factor = 10
-				modifier = {
-					factor = 0
-					OR = {
-						NOT = { has_idea_group = exploration_ideas }
-						num_of_explorers = 1
-					}
+		ase_exploration_corp = {
+			allow = {
+				OR = {
+					has_idea_group = exploration_ideas
+					has_idea_group = expansion_ideas
 				}
 			}
-		}
-		ase_exploration_corp = {
 			rule = {
 				free_maintenance_on_expl_conq = yes
 			}
 			ai_will_do = {
 				factor = 10
-				modifier = {
-					factor = 0
-					OR = {
-						NOT = { has_idea_group = exploration_ideas }
-						num_of_explorers = 1
-					}
-				}
 			}
 		}
-		ase_sea_life = {
+		ase_glorious_renaissance = {
 			modifier = {
-				naval_attrition = -0.25
+				prestige_decay = -0.01
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ase_ruling_dynasty = {
+			modifier = {
+				reelection_cost = -0.10
 			}
 			ai_will_do = {
 				factor = 10
 				modifier = {
 					factor = 0
-					NOT = { naval_forcelimit = 5 }
+					NOT = { government = republic }
 				}
 			}
 		}
@@ -319,7 +311,7 @@ age_of_discovery = {
 				tag = ETH
 			}
 			modifier = {
-				global_prov_trade_power_modifier = 0.30
+				inflation_reduction = 0.5
 			}
 			ai_will_do = {
 				factor = 100
@@ -779,7 +771,7 @@ age_of_absolutism = {
 		ase_stable_society = {
 			NOT = { unrest = -7 }
 		}
-	}	
+	}
 	
 	abilities = {
 		ab_allow_edict_of_absolutism = {

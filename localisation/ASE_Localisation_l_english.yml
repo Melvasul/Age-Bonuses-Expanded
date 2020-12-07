@@ -6,9 +6,9 @@
 
  ab_persia_court: "Persian Court"
  #Discovery
- ase_renown_explorer: "Renown Explorer"
  ase_exploration_corp: "Exploration Corps"
- ase_sea_life: "Sea Life"
+ ase_glorious_renaissance: "Glorious Renaissance"
+ ase_ruling_dynasty: "Ruling Dynasty"
  ase_build_fleet: "Build a Fleet"
  ase_build_fleet_desc: "Has at least 6 Heavy Ships or 20 Light Ships"
  ase_piles_gold: "Piles of Gold"
