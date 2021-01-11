@@ -632,6 +632,64 @@ age_of_reformation = {
 				factor = 100
 			}
 		}
+
+		ase_jerusalem_ambition = {
+			allow = {
+				religion = catholic
+				OR = {
+					tag = ATH
+					tag = CEP
+					tag = CYP
+					tag = EPI
+					tag = KNI
+					tag = NAX
+				}
+			}
+			modifier = {
+				movement_speed_onto_off_boat_modifier = 0.33
+				flagship_landing_penalty = -2
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ase_muslim_jihad = {
+			allow = {
+				religion_group = muslim
+			}
+			effect = {
+				custom_tooltip = muslim_jihad_tt
+				set_country_flag = muslim_jihad_flag
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ase_confessionalism = {
+			allow = {
+				religion_group = christian
+				NOT = { religion = orthodox }
+			}
+			modifier = {
+				church_power_modifier = -0.10
+				curia_powers_cost = -0.10
+				monthly_fervor_increase = 2
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ase_dharmic_syncretism = {
+			allow = {
+				religion_group = dharmic
+			}
+			modifier = {
+				tolerance_heathen = 2
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
 		
 		ase_bavaria_centralisation = {
 			allow = {

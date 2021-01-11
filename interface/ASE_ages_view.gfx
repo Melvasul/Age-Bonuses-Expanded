@@ -52,6 +52,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/ase_vijayanagar_nayankara.dds"
 	}
 	spriteType = {
+		name = "GFX_ase_jerusalem_ambition"
+		texturefile = "gfx/interface/ages/ase_jerusalem_ambition.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_muslim_jihad"
+		texturefile = "gfx/interface/ages/ase_muslim_jihad.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_confessionalism"
+		texturefile = "gfx/interface/ages/ase_confessionalism.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_dharmic_syncretism"
+		texturefile = "gfx/interface/ages/ase_dharmic_syncretism.dds"
+	}
+	spriteType = {
 		name = "GFX_ase_bavaria_centralisation"
 		texturefile = "gfx/interface/ages/ase_bavaria_centralisation.dds"
 	}

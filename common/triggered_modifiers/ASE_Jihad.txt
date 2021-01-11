@@ -1,0 +1,17 @@
+ase_jihad_triggered_modifier = {
+	potential = {
+		current_age = age_of_reformation
+		religion_group = muslim
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = ase_jihad_triggered_modifier_TT
+		}
+        any_known_country = {
+            NOT = { religion = ROOT }
+            war_with = ROOT
+        }
+	}
+
+	land_morale = 0.10
+}

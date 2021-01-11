@@ -34,6 +34,11 @@
  ase_strength_unity: "Strength in Unity"
  ase_strength_unity_desc: "Has 100% Religious Unity"
 
+ ase_jerusalem_ambition: "Jerusalem Ambition"
+ ase_muslim_jihad: "Jihad"
+ ase_confessionalism: "Confessionalism"
+ ase_dharmic_syncretism: "Dharmic Syncretism"
+
  ase_bavaria_centralisation: "Bavarian Centralization"
  ase_brandenburg_war_commissariat: "Brandenburg War commissariat"
  ase_palatinate_court: "Palatine Court"
@@ -106,3 +111,5 @@
  #ase_mil_advisor_2: "A random lvl 2 Military advisor of our culture will be available"
  #ase_mil_advisor_3: "A random lvl 3 Military advisor of our culture will be available"
  #
+ muslim_jihad_tt: "Enables Jihad granting §G+10%§! §YMorale of Armies§! when at war with §RHeathens§! and §RHeretics§!"
+ ase_jihad_triggered_modifier_TT: "Has Age Ability: §YJihad§!"
