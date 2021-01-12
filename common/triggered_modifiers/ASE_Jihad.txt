@@ -6,6 +6,7 @@ ase_jihad_triggered_modifier = {
 	trigger = {
 		custom_trigger_tooltip = {
 			tooltip = ase_jihad_triggered_modifier_TT
+			has_country_flag = muslim_jihad_flag
 		}
         any_known_country = {
             NOT = { religion = ROOT }
