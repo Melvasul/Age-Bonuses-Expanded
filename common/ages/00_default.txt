@@ -668,10 +668,8 @@ age_of_reformation = {
 		ase_confessionalism = {
 			allow = {
 				religion_group = christian
-				AND = {
-					NOT = { religion = orthodox }
-					NOT = { religion = coptic }
-				}
+				NOT = { religion = orthodox }
+				NOT = { religion = coptic }
 			}
 			modifier = {
 				church_power_modifier = -0.10
