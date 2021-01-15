@@ -672,9 +672,9 @@ age_of_reformation = {
 				NOT = { religion = coptic }
 			}
 			modifier = {
-				church_power_modifier = -0.10
-				curia_powers_cost = -0.10
-				monthly_fervor_increase = 2
+				church_power_modifier = -0.15
+				curia_powers_cost = -0.20
+				monthly_fervor_increase = 1
 			}
 			ai_will_do = {
 				factor = 100
