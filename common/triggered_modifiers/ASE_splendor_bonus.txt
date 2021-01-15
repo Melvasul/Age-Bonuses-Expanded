@@ -1,32 +1,31 @@
 splendor_triggered_modifier_1 = {
 	potential = {
 		has_dlc = "Mandate of Heaven"
-		variable_arithmetic_trigger = {
-			export_to_variable = {
-				which = adm_value
-				value = ADM
-			}
-			export_to_variable = {
-				which = dip_value
-				value = DIP
-			}
-			export_to_variable = {
-				which = mil_value
-				value = MIL
-			}
-			change_variable = { which = adm_value which = dip_value }
-			change_variable = { which = adm_value which = mil_value }
-			
-			check_variable = {
-				which = adm_value
-				value = 15
-			}
-		}
 	}
 	trigger = {
 		custom_trigger_tooltip = {
 			tooltip = RULER_STAT_15_TOOLTIP
-			always = yes
+			variable_arithmetic_trigger = {
+				export_to_variable = {
+					which = adm_value
+					value = ADM
+				}
+				export_to_variable = {
+					which = dip_value
+					value = DIP
+				}
+				export_to_variable = {
+					which = mil_value
+					value = MIL
+				}
+				change_variable = { which = adm_value which = dip_value }
+				change_variable = { which = adm_value which = mil_value }
+				
+				check_variable = {
+					which = adm_value
+					value = 15
+				}
+			}
 		}
 	}
 
