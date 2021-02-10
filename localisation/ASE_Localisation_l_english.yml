@@ -50,6 +50,10 @@
  ase_stable_society: "Stable Society"
  ase_stable_society_desc: "Has a National Unrest inferior to -7"
 
+ ase_strategic_warfare: "Strategic Warfare"
+ ase_cultural_relativism: "Cultural Relativism"
+ ase_imperial_control: "Imperial Control"
+
  ase_japan_prosperity: "Japanese Prosperity"
  ase_morocco_expedition: "Moroccan Interior"
  ase_maghrebi_piracy: "Barbary Pirates"

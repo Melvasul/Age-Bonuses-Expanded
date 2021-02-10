@@ -96,6 +96,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/ase_taungu_military_reforms.dds"
 	}
 	spriteType = {
+		name = "GFX_ase_strategic_warfare"
+		texturefile = "gfx/interface/ages/ase_strategic_warfare.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_cultural_relativism"
+		texturefile = "gfx/interface/ages/ase_cultural_relativism.dds"
+	}
+	spriteType = {
+		name = "GFX_ase_imperial_control"
+		texturefile = "gfx/interface/ages/ase_imperial_control.dds"
+	}
+	spriteType = {
 		name = "GFX_ase_japan_prosperity"
 		texturefile = "gfx/interface/ages/ase_japan_prosperity.dds"
 	}

@@ -888,6 +888,32 @@ age_of_absolutism = {
 		ab_yearly_absolutism = {
 			modifier = {
 				yearly_absolutism = 1
+				imperial_mandate = 0.1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		ase_strategic_warfare = {
+			modifier = {
+				global_regiment_recruit_speed = -0.33
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ase_cultural_relativism = {
+			modifier = {
+				promote_culture_cost = -0.5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ase_imperial_control = {
+			modifier = {
+				min_autonomy_in_territories = -0.20
 			}
 			ai_will_do = {
 				factor = 100
@@ -1217,7 +1243,7 @@ age_of_revolutions = {
 				tag = USA
 			}
 			modifier = {
-				global_regiment_recruit_speed = -0.33
+				reinforce_speed = 0.50
 			}
 			ai_will_do = {
 				factor = 100
