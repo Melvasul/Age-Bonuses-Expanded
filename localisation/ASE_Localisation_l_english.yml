@@ -76,6 +76,7 @@
  splendor_triggered_modifier_1: "Court Splendor"
  splendor_triggered_modifier_2: "Court Splendor"
  splendor_triggered_modifier_3: "Ruinous Power"
+ ase_jihad_triggered_modifier: "Jihad"
 
  #Events
  age_splendor_expanded_events.1.T: "This is a hidden event"
