@@ -66,11 +66,19 @@
  ase_join_revolution: "Join the Revolution"
  ase_join_revolution_desc: "Is revolutionary"
 
+ ase_enlightened_governance: "Enlightened Governance"
+ ase_nationalistic_fervor: "Nationalistic Fervor"
+ ase_uniform_education: "Uniform Education"
+ ase_universal_literacy: "Universal Literacy"
+
  ase_germany_industrialisation: "German Industrialisation"
  ase_hanover_marriages: "Hanoverian Marriages"
  ase_italian_hegemony: "Italian Hegemony"
  ase_marathas_horsemen: "Maratha Horsemen"
  ase_united_states: "American Minutemen"
+
+ #Modifier
+ ase_nationalistic_fervor_modifier: "Nationalistic Fervor"
 
  #Triggered Modifier
  splendor_triggered_modifier_1: "Court Splendor"
@@ -83,7 +91,12 @@
  age_splendor_expanded_events.1.D: "Its sole purpose is to tell the other expanded mod that this mod is active as well, but you should not be able to see this. \nRefere to Melvasul in the Expanded discord, if you see this."
  age_splendor_expanded_events.1.OPT1: "Melvasul, Expanded Discord"
 
+ Ages_Splendor_Expanded_Events.1.T: "This is a hidden event"
+ Ages_Splendor_Expanded_Events.1.D: "Its sole purpose is to set Nationalistic Fervor in the provinces."
+ Ages_Splendor_Expanded_Events.1.OPT1: "Melvasul, Expanded Discord"
+
  #Tooltips
  RULER_STAT_15_TOOLTIP: "Your Court Splendor is above 15"
  muslim_jihad_tt: "Enables Jihad granting §G+10%§! §YMorale of Armies§! when at war with §RHeathens§! and §RHeretics§!"
+ nationalistic_fervor_tt: "§G+25%§! Manpower in provinces with primary culture"
  ase_jihad_triggered_modifier_TT: "Has Age Ability: §YJihad§!"

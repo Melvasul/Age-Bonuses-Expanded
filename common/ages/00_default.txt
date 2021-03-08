@@ -1146,6 +1146,44 @@ age_of_revolutions = {
 			}
 		}
 
+		ase_enlightened_governance = {
+			modifier = {
+				legitimacy = 1
+				republican_tradition = 0.5
+				devotion = 1
+				horde_unity = 1
+				meritocracy = 1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ase_nationalistic_fervor = {
+			effect = {
+				custom_tooltip = nationalistic_fervor_tt
+				set_country_flag = nationalistic_fervor_flag
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ase_uniform_education = {
+			modifier = {
+				culture_conversion_cost = -0.30
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ase_universal_literacy = {
+			modifier = {
+				all_power_cost = -0.05
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
 		ab_pru_military = {
 			allow = {
 				tag = PRU
