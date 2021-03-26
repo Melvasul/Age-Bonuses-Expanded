@@ -10,36 +10,37 @@ country_event = {
 
 	trigger = {
 		has_country_flag = nationalistic_fervor_flag
+		OR = {
+			any_owned_province = {
+				has_owner_culture = yes
+				NOT = { has_province_modifier = ase_nationalistic_fervor_modifier }
+			}
+			any_owned_province = {
+				NOT = { has_owner_culture = yes }
+				has_province_modifier = ase_nationalistic_fervor_modifier
+			}
+		}
 	}
 
 	mean_time_to_happen = {
-		months = 1
+		days = 30
 	}
 
 	immediate = {
 		hidden_effect = {
-			every_province = {
+			every_owned_province = {
 				if = {
 					limit = {
 						has_owner_culture = yes
+						NOT = { has_province_modifier = ase_nationalistic_fervor_modifier }
 					}
-					if = {
-						limit = {
-							NOT = { has_province_modifier = ase_nationalistic_fervor_modifier }
-						}
-						add_province_modifier = {
-							name = ase_nationalistic_fervor_modifier
-							duration = -1
-						}
+					add_province_modifier = {
+						name = ase_nationalistic_fervor_modifier
+						duration = -1
 					}
 				}
 				else = {
-					if = {
-						limit = {
-							has_province_modifier = ase_nationalistic_fervor_modifier
-						}
-						remove_province_modifier = ase_nationalistic_fervor_modifier
-					}
+					remove_province_modifier = ase_nationalistic_fervor_modifier
 				}
 			}
 		}
