@@ -7,7 +7,7 @@
  ase_build_fleet: "Build a Fleet"
  ase_build_fleet_desc: "Has at least 6 Heavy Ships or 20 Light Ships"
  ase_piles_gold: "Piles of Gold"
- ase_piles_gold_desc: "Own at least 3 provinces producing Gold"
+ ase_piles_gold_desc: "Own at least 3 provinces producing Gold or Silver"
  ase_dynamic_court: "Dynamic Court"
  ase_dynamic_court_desc: "Has employed an advisor for each type"
 

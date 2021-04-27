@@ -5,6 +5,6 @@ tags={
 	"Gameplay"
 	"Expansion"
 }
-name="Ages and Splendor Expanded Master"
-supported_version="1.30.6"
+name="Ages and Splendor Expanded"
+supported_version="1.31.0"
 remote_file_id="2172666098"
